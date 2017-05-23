@@ -1,0 +1,17 @@
+{
+  "name": "qbittorrent-rss-downloader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "qbittorrent-rss-downloader.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "episode-parser": "^1.2.0",
+    "feedparser": "^2.2.0",
+    "qbittorrent-client": "^1.1.0",
+    "request": "^2.81.0"
+  }
+}
