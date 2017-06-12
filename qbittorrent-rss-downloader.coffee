@@ -34,6 +34,7 @@ feedparser.on 'readable', ->
       options =
         urls: item.link
         savepath: "#{process.env.PATH_TO_TV_SHOWS}/#{episodeInfo.show}/Season #{episodeInfo.season}/"
+        category: episodeInfo.show
       
       client.addTorrentFromURL options, (err, res)->
         console.log err if err
