@@ -4,7 +4,7 @@ ENV QBITTORRENT_USERNAME 'admin'
 ENV QBITTORRENT_PASSWORD 'password'
 ENV QBITTORRENT_HOST '127.0.0.1'
 ENV QBITTORRENT_PORT '8080'
-ENV PATH_TO_TV_SHOWS '/downloads/tv_shows'
+ENV DOWNLOAD_DIR '/downloads/tv_shows'
 ENV FEED_URL ''
 
 COPY qbittorrent-rss-downloader.coffee /usr/src/qbittorrent-rss-downloader/
